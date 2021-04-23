@@ -1,0 +1,58 @@
+<html>
+<head>
+  <title>3314최가빈_Bootstrap 4 Popover</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('[data-toggle="popover"]').popover();   
+    }); 
+  </script>
+</head>
+<body>
+  <!-- <div class="container">
+    <h3>Popover Example</h3>
+    <a href="profile.html" title="" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="내소개입니다">내소개</a>
+    <a href="table.html" title="" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="시간표입니다">시간표</a>
+    <a href="board.html" title="" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="게시판입니다">게시판</a>
+    <a href="http://maps.google.com" title="" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="구글지도입니다">구글지도</a>
+    <a href="lecture.html" title="" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="강의입니다">강의</a>
+    <a href="midwav.html" title="" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="음악감상입니다">음악감상</a>
+  </div> -->
+
+  <nav class="navbar  navbar-expand-sm bg-primary navbar-dark">
+    <a class="navbar-brand" href="index.html" data-toggle="popover" data-trigger="hover" data-content="초기화면입니다.">홈</a>
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggle-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ui class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="profile.html">내소개</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="table.html">강의시간표</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="lecture.html">강의실자료</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="board.html">게시판</a>
+          </li>
+        </ui>
+      </div>
+  </nav>
+
+  
+  <script>
+    $(document).ready(function(){
+      $('[data-toggle="popover"]').popover();   
+    }); 
+  </script>
+</body>
+</html>
+

@@ -24,7 +24,7 @@ function updateSales(responseText) {
     var sale = sales[i];
     var div = document.createElement("div");
     div.setAttribute("class", "saleItem");
-    div.innerHTML = sale.name + "에서 볼을 " + sale.sales + "개 판매하였습니다. ";
+    div.innerHTML = sale.name + " sold" + sale.sales + "gunballs";
     salesDiv.appendChild(div);
   }
 }

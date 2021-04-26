@@ -42,23 +42,25 @@
 			margin-right: 40px;
 		}
 
+		/* 전체 배경 핑크색, div id = "sales"==># 으로 접근 */
 		div#sales {
-			background-color: #d9d9d9;
+			background-color: #ff00ff;
 			-webkit-border-radius: 6px;
 			border-radius: 6px;
 			margin: 10px 0px 0px 0px;
 			padding: 0px;
 			border: 1px solid #d9d9d9;
 		}
-
+		/* 핑크색 위에 글자색, div의 saleItem은 class 이므로 div.saleItem으로 접근 */
 		div.saleItem {
 			font-family: Verdana, Helvetica, sans-serif;
-			color: #434343;
+			color: #ff0000;
 			padding: 10px;
 		}
 
+		/* 이 후 세개가 함께 나와야 치례대로 행의 색이 변경됨, 두번째행 노란색 */
 		div.saleItem:nth-child(2n) {
-			background-color: #fafafa;
+			background-color: #fafaaa;
 		}
 
 		div.saleItem:first-child {

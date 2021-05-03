@@ -13,12 +13,12 @@ function init() {
 	handleRefresh();
 }
 
-function handleRefresh() {
+/* function handleRefresh() {
 	console.log("here");
 	var url = "http://gumball.wickedlysmart.com" + "?callback=updateSales"+ "&lastreporttime" + lastReportTime + "&random=" + (new Date()).getTime();
 	var newScriptElement = document.createElement("script");
 	newScriptElement.setAttribute("src", url);
-	newScriptElement.setAttribute("id", "josnp");
+	newScriptElement.setAttribute("id", "jsonp");
 	var oldScriptElement = document.getElementById("jsonp");
 	var head = document.getElementsByTagName("head") [0];
 	if(oldScriptElement == null) {
@@ -27,7 +27,12 @@ function handleRefresh() {
 	else {
 		head.replaceChild(newScriptElement, oldScriptElement);
 	}
-  
+} */
+
+function handleRefresh() {
+	console.log("here");
+	var url = "https://gumball.wickedlysmart.com";
+	$.getJSON(url + "?callback=?", updateSales);
 }
 
 function updateSales(sales) {

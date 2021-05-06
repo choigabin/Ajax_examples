@@ -1,9 +1,9 @@
-[{"cafe":"자바칩 푸라푸치노","size":"tall","price":4500},
-  {"cafe":"아메리카노","size":"large","price":2500},
-  {"cafe":"초콜릿 라떼","size":"tall","price":3500},
-  {"cafe":"휘핑올린 녹차 라떼","size":"large","price":4500},
-  {"cafe":"소프트 아이스크림","size":"grande","price":4000},
-  {"cafe":"복숭아 플랫치노","size":"large","price":3500},
-  {"cafe":"팥빙수","size":"large","price":4500},
-  {"cafe":"크로플","size":"grande","price":2500},
-  {"cafe":"초콜릿 쿠키","size":"grande","price":1500}]
+[{"name":"seoul","time":1308774240669,"sales":10},
+{"name":"busan","time":1308774240669,"sales":9},
+{"name":"daegu","time":1308774240669,"sales":8},
+{"name":"incheon","time":1308774240669,"sales":7},
+{"name":"suwon","time":1308774240669,"sales":6},
+{"name":"daijeon","time":1308774240669,"sales":5},
+{"name":"woolsan","time":1308774240669,"sales":4},
+{"name":"ansung","time":1308774240669,"sales":3},
+{"name":"chenan","time":1308774240669,"sales":2}]

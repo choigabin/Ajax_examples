@@ -17,7 +17,18 @@ xmlDoc=xmlhttp.responseXML;
 
 x=xmlDoc.getElementsByTagName("CD");
 i=0;
-
+function next() {
+  if(i < x.length - 1) {
+    i++;
+    displayCD();
+  }
+}
+function previous() {
+  if(i > 0) {
+    i--;
+    displayCD();
+  }
+}
 function displayCD()
 {
 artist=(x[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue);
@@ -31,6 +42,7 @@ document.getElementById("showCD").innerHTML=txt;
 <body onload="displayCD()">
 
 <div id='showCD'></div>
-
+<input type="button" onclick="previous()" value="<<"/>
+<input type="button" onclick="next()" value=">>"/>
 </body>
 </html>

@@ -1,14 +1,5 @@
-CATALOG
-{
-background-color: #ffffff;
-width: 100%;
-}
-CD
-{
-display: block;
-margin-bottom: 30pt;
-margin-left: 0;
-}
+CATALOG {background-color: #eeee00; width: 100%;}
+CD{display: block; margin-bottom: 30pt; margin-left: 0;}
 TITLE
 {
 color: #FF0000;

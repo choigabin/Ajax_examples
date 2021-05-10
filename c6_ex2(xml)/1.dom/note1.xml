@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE note[
+<!ENTITY nbsp "&#xA0;">
+<!ENTITY writer "Writer: Donald Duck.">
+<!ENTITY copyright "Copyright: W#Schools.">
+]>
+<notes>
+<note>
+	<to>Tove</to>
+	<from>Jani</from>
+	<heading>Reminder</heading>
+	<body>Don't forget me this weekend!</body>
+	<footer>&writer;&nbsp;&copyright;</footer>
+</note>
+<note>
+	<to>gaebi</to>
+	<from>jenny</from>
+	<heading>look</heading>
+	<body>Don't forget me this weekend!</body>
+	<footer>&writer;&nbsp;&copyright;</footer>
+</note>
+<note>
+	<to>Tove2</to>
+	<from>Jani2</from>
+	<heading>Reminder</heading>
+	<body>Don't forget me this weekend!</body>
+	<footer>&writer;&nbsp;&copyright;</footer>
+</note>
+</notes>

@@ -3,17 +3,29 @@ window.onload = function() {
     handleRefresh();
 }
 function handleRefresh() {
+	console.log("here");
 
-
-
-
-	
-
+	var url = "http://openapi.seoul.go.kr:8088/4d7467546a67616234357755744d46/json/GwanakClassLectureList/1/5/100";
+	$.getJSON(url, updatelecture);
 }	
-
-
 function updatelecture(lectures) {
+	var lecturesDiv = document.getElementById("lectures");
+	lectures = lectures.GwanakClassLectureList.row;
 
+	for (var i = 0 ; i < lectures.length ; i++) {
+		var lecture = lectures[i];
+		var div = document.createElement("div");
+		div.setAttribute("class", "lecture");
+		div.innerHTML = "강좌명 : " + lecture.TITLE + "은"
+									+ "교육기간 : " + lecture.EDU_PERIOD + " "
+									+ "교육장소 : " + lecture.EDU_PLACE + " "
+									+ "교육대상 : " + lecture.EDU_TARGET + " "
+									+ "접수방법 : " + lecture.APPLY_WAY + " "
+									+ "수강료 : " + lecture.EDU_PAY + "원 입니다!";
+
+									lecturesDiv.appendChild(div);
+
+	}
 
 
 

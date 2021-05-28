@@ -8,7 +8,7 @@ h1{
 	text-align:center; 
 }
 div#subwaypeople {
-	background-color: #d9d9d9;
+	background-color: #c4eeb1;
 	-webkit-border-radius: 6px;
 	border-radius: 6px;
 	margin: 10px 0px 0px 0px;
@@ -17,7 +17,7 @@ div#subwaypeople {
 }
 div.subwayItem {
 	font-family: Verdana, Helvetica, sans-serif;
-	color: #434343;
+	color: #408d39;
 	padding: 10px;
 }
 div.subwayItem:nth-child(2n) {

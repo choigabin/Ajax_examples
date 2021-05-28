@@ -17,11 +17,11 @@ div#subwaypeople {
 }
 div.subwayItem {
 	font-family: Verdana, Helvetica, sans-serif;
-	color: #434343;
+	color: #b68282;
 	padding: 10px;
 }
 div.subwayItem:nth-child(2n) {
-	background-color: #fafafa;
+	background-color: #dfcaca;
 }
 div.subwayItem:first-child {
 	-webkit-border-top-left-radius: 6px;

@@ -5,7 +5,7 @@ window.onload = function() {
 function handleRefresh() {
 	console.log("here");
 
-	var url = "http://openapi.seoul.go.kr:8088/4d7467546a67616234357755744d46/json/GwanakClassLectureList/1/5/100";
+	var url = "http://openapi.seoul.go.kr:8088/4d7467546a67616234357755744d46/json/GwanakClassLectureList/1/100/";
 	$.getJSON(url, updatelecture);
 }	
 function updatelecture(lectures) {
@@ -23,29 +23,9 @@ function updatelecture(lectures) {
 									+ "접수방법 : " + lecture.APPLY_WAY + " "
 									+ "수강료 : " + lecture.EDU_PAY + "원 입니다!";
 
-									lecturesDiv.appendChild(div);
+		lecturesDiv.appendChild(div);
 
 	}
-
-
-
-
-
-
-
-/*		1   TITLE	강좌명
-		2	EDU_PERIOD	교육기간
-		3	EDU_PLACE	교육장소
-		4	EDU_TARGET	교육대상
-		5	APPLY_WAY	접수방법
-		6	EDU_PAY	수강료
-		7	APPLY_PERIOD	접수기간*/
-
-
-
-
-
-
 
 
 		

@@ -14,11 +14,11 @@ div#lectures {
 }
 div.lecture {
 	font-family: Verdana, Helvetica, sans-serif;
-	color: #0000ff;
+	color: gray;
 	padding: 10px;
 }
 div.lecture:nth-child(2n) {
-	background-color: #eeee00;
+	background-color: rebeccapurple;
 }
 div.lecture:first-child {
 	-webkit-border-top-left-radius: 6px;
